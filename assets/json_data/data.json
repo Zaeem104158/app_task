@@ -1,0 +1,48 @@
+{
+	"parent_consignment_charges_request_oid": "4c063751-f80c-4ab3-9312-12ac31799804",
+	"parent_consignment_charge_oid": "d650bf99-427d-41df-a754-c714fd357469",
+	"orderCnRequest": {
+		"cn_request_id": "CNR-20230125-4136701-001",
+		"service_type_id": "Regular",
+		"request_type_id": "Pick up",
+		"home_delivery": "No",
+		"payer": "Sender",
+		"payment_type": "Cash"
+	},
+	"senderInfo": {
+		"sender_name_en": "Mahmud",
+		"sender_name_bn": "",
+		"sender_type": "Self",
+		"sender_phone": "01555555555",
+		"sender_email": "mahmud@ab.com",
+		"sender_nid": "12345678",
+		"sender_division_oid": "BD-Dhaka-Division",
+		"sender_district_oid": "BD-Madaripur",
+		"sender_thana_oid": "BD-Thana-Madaripur-Madaripur-Sadar",
+		"sender_post_office_oid": "",
+		"sender_address": "Madaripur bazar",
+		"sender_hub_oid": "LN-IN-0000367"
+	},
+	"consignmentChargesRequestParams": [
+		{
+			"oid": "4c063751-f80c-4ab3-9312-12ac31799804",
+			"parent_oid": "4c063751-f80c-4ab3-9312-12ac31799804",
+			"request_type_id": "Drop",
+			"service_type_id": "Regular",
+			"category_id": null,
+			"is_packaging": "Yes",
+			"packaging_id": null,
+			"is_volumetric_weight": "No",
+			"length_value": "243.84",
+			"width_value": "91.44",
+			"height_value": "5.08",
+			"product_weight": "0.50",
+			"is_dhaka_city": "Yes",
+			"is_other_city": "No",
+			"is_upazila": "No",
+			"home_delivery": "No",
+			"is_check_cod": "Yes",
+			"collectable_amount": "25000.00"
+		}
+	]
+}
